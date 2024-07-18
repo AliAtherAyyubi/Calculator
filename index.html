@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <div id="output"></div>
+            <div id="type"></div>
+        </div>
+        <div id="buttons">
+            <div class="top-btns">
+                <span class="btn funct-btn" id="CE">CE</span>
+                <span class="btn funct-btn" id="clear">C</span>
+                <button class="btn funct-btn" id="backspace"><img src="./icons/delete.png" alt="" id="backspace" class="icon"></button>
+            </div>
+        <div id="operators">
+            <span class="btn opr" id="plus" >+</span>
+            <span class="btn opr" id="minus">-</span>
+            <span class="btn opr" id="multiply">*</span>
+            <span class="btn opr" id="divide">/</span>
+            <span class="btn " id="result">=</span>
+        </div>
+
+        <div id="operand_btns">
+            <span id="7" value=7 class="opd btn">7</span>
+            <span id="8" class="opd btn">8</span>
+            <span id="9" class="opd btn">9</span>
+            <span id="4" class="opd btn">4</span>
+            <span id="5" class="opd btn">5</span>
+            <span id="6" class="opd btn">6</span>
+            <span id="1" class="opd btn">1</span>
+            <span id="2" class="opd btn">2</span>
+            <span id="3" class="opd btn">3</span>
+            <span id="0" class="opd btn">0</span>
+            <span id="." class="opd btn">.</span>
+        </div>
+        </div>
+    </div>
+    <button class="btn" disabled="true">ali</button>
+
+
+    <script src="./code.js"></script>
+</body>
+</html>
